@@ -4,5 +4,53 @@
 }
 
 body {
-    background-color: teal;
+    background-color: #c4e2e2;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+/* color scheme:
+#688052: green
+#c4e2e2: light blue
+#fa9584: red
+#f9ae54: yellow
+ */
+
+ .pets {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+ .animal {
+    border: 2px solid #688052;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+ }
+
+ img {
+     width: 280px;
+     padding: 10px;
+ }
+
+h2 {
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    background-color: #fa9584;
+}
+
+p {
+    padding: 10px;
+}
+
+.special-skill {
+    height: 80px;
+}
+footer {
+    background-color: #f9ae54;
+    padding: 10px 0px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
 }
