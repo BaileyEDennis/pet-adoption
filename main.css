@@ -72,7 +72,7 @@ button {
 }
 
 .cats {
-    color: lightblue;
+    color: rgb(147, 205, 224);
 }
 
 .dogs {
@@ -81,4 +81,8 @@ button {
 
 .dino {
     color: darkorange;
+}
+
+.all {
+    color: rgb(182, 135, 206);
 }
